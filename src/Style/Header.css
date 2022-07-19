@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    padding-top: 15px;
+    color: #14213D;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+
+}
+
+.playBtn
+{   
+    font-size: 80px;
+    color: "#14213D"; 
+}
+
+.play {
+    display: flex;
+}
+
+.help {
+    display: flex;
+    align-items: center;
+}
+
+.help > h3 {
+    color: #14213D;
+    margin-right: 20px;
+
+}
+
+.btn {
+    width: 50px;
+    height: 50px;
+    background: url("../Images/play.svg");
+}
+
+
+@media only screen and (max-height: 985px) {
+    .header {
+      font-size: 50px;
+    }
+  }
+
+  @media only screen and (max-height: 700px) {
+    .header {
+      font-size: 35px;
+    }
+  }
+
+/*https://coolors.co/palette/000000-14213d-fca311-e5e5e5-ffffff*/

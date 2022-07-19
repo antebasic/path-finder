@@ -1,0 +1,12 @@
+.node {
+    height: 50px;
+    width: 50px;
+    outline: 1px solid gray;
+    border-radius: 1px;
+    cursor: pointer;
+    background-color: white;
+
+    transition: all 0.2s ease;
+}
+
+

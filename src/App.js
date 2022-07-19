@@ -1,11 +1,15 @@
 import React from 'react';
+import Grid from './Components/Grid';
+import Header from './Components/Header';
 import './App.css';
-import PathfindingVisualizer from './PathfindingVisualizer/PathfindingVisualizer';
 
 function App() {
   return (
     <div className="App">
-      <PathfindingVisualizer></PathfindingVisualizer>
+      <header className="App-header">
+        <Header></Header>
+        <Grid></Grid>
+      </header>
     </div>
   );
 }

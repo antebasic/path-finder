@@ -1,0 +1,22 @@
+.grid {
+    display: flex;
+    width: 90vw;
+    height: 80vh;
+    flex-wrap: wrap;
+    gap: 0px;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #14213D;
+    color: white;
+    width: 100px;
+    margin-bottom: 15px;
+    border-radius: 15%;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
